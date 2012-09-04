@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    // Factorial de un número
+    
+    int num = 0, fac = 0;
+    
+    cout<<"Digite un numero:";
+    cin>> num;
+    
+    fac = num;
+    
+    for (int i = num-1; i>=1; i--)
+    {
+        fac = fac*i;
+    }
+        cout<<" El factorial de "<<num<<" es "<<fac<< "\n";
+        
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
